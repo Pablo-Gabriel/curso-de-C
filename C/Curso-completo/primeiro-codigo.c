@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include<math.h>
 
-/*const int limite = 30;
+const int limite = 30;
 
 int main() {
     float peso, altura, IMC, potencia;
@@ -22,5 +22,5 @@ int main() {
     printf("Seu IMC é igual a: %.2f \n", IMC);
 
     return 0;
-} */
+} 
 
