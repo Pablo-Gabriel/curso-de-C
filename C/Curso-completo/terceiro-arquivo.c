@@ -13,6 +13,8 @@
     return 0;
 } */
 
+/* 2º exercicio: calculadora de consumo medio de combustivel */
+
 /* int main() {
     float combustivel, distancia, consumo_medio;
 
@@ -24,7 +26,7 @@
     return 0;
 } */
 
-/* Caculadora de hipotenusa */
+/* 3º exercicio: Caculadora de hipotenusa */
 
 /*int main() {
 
@@ -39,4 +41,20 @@
     
 }*/
 
+/* 4º exercicio: Comparadora de numeros */
+
+int main() {
+
+    float n1, n2;
+
+    printf("Digite 2 números quaisquer: \n");
+    scanf(" %f %f", &n1, &n2);
+    if (n1 > n2) {
+        printf("O número %.1f é maior que o número %.1f \n", n1, n2);
+    } else {
+        printf("O número %.1f é maior que o número %.1f \n", n2, n1);
+    };
+    
+    return 0;
+}
 
