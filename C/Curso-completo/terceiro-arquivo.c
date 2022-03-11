@@ -95,3 +95,31 @@
     return 0;
 } */
 
+/* 7º Exercicio: Resolução de questões de segundo grau*/
+
+int main() {
+
+    float a, b, c, x1, x2, delta;
+    
+    printf("Digite os coeficientes de uma equação de segundo grau (a, b, c): \n");
+    scanf(" %f %f %f", &a, &b, &c);
+    
+    if (a == 0) {
+        printf("Não existe equação de segundo grau com o coeficiente a = 0");
+    } else{
+
+        delta = sqrt(pow(b, 2) - (4 * a * c));
+    
+            if (delta < 0) {
+                printf("Não existem raizes reais para a sua equação de segundo grau : %fx² + %fx + %f = 0", a, b, c);
+            } else {
+
+                x1 = (-b + delta) / (2 * a);
+                x2 = (-b - delta) / (2 * a);
+    
+                printf("As raizes da sua equação são: %.2f e %.2f \n", x1, x2);
+            };
+    };
+    
+    return 0;
+}
