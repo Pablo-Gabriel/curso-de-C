@@ -38,12 +38,14 @@
     scanf(" %f", &cat2);
     hipotenusa = sqrt((cat1 * cat1) + (cat2 * cat2));
     printf("A hipotenusa vale: %.2f \n", hipotenusa);
+
+    return 0;
     
 }*/
 
 /* 4º exercicio: Comparadora de numeros */
 
-int main() {
+/* int main() {
 
     float n1, n2;
 
@@ -56,5 +58,40 @@ int main() {
     };
     
     return 0;
-}
+} */
+
+/*  5º exercicio: ano bissexto */
+
+/* int main() {
+
+    int ano;
+
+    printf("Digite um ano para saber se ele será bissexto: ");
+    scanf("%d", &ano);
+    if (((ano % 4) == 0) && ((ano % 100) != 0))  {
+        printf("O ano %d é bissexto \n", ano);
+    } else {
+        printf("O ano %d não é bissexto \n", ano);
+    };
+    return 0;
+} */
+
+/* 6º Exercicio: Reajuste salarial */
+
+/* int main() {
+
+    float s1, s2;
+
+    printf("Digite seu salário: ");
+    scanf("%f", &s1);
+    if (s1 <= 750.00) {
+        s2 = s1 + 100 + s1*0.05;
+        printf("Seu salário com todos os reajustes será igual a: %.2f \n", s2);
+    } else {
+        s2 = s1 + s1*0.05;
+        printf("Seu salário com o reajuste será igual: %.2f \n", s2);
+    };
+    
+    return 0;
+} */
 
